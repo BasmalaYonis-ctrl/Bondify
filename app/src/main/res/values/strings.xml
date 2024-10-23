@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NewBondify</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sophia">Sophia</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="default_web_client_id">58767976212-5tqgrmfje19ugt8p9lpcbidvqn4g4dq9.apps.googleusercontent.com</string>
+</resources>

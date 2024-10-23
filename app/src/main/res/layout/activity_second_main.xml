@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondMainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_button_color"
+        android:gravity="center"
+        tools:context=".SecondMainActivity">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button1"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button4"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button5"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button6"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button7"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button8"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button9"
+                style="@style/my_button"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="2dp"
+                android:onClick="butClicked"
+                android:text="" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

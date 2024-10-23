@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SignupFragment"
+    android:padding="8dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xdd"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/costume"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Username"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:id="@+id/usernamesign"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/grey"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/costume"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Email"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:id="@+id/emailsign"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/grey"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/costume"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:id="@+id/passwordsign"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/grey"
+
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/costume"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Repeat Password"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:id="@+id/repeatpasswordsign"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/grey"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ٍSignup"
+        android:textSize="18dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/costume"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:id="@+id/signupButton"
+
+        />
+
+
+
+</LinearLayout>

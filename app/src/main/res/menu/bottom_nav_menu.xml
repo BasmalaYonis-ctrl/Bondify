@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home Item -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <!-- Ranking Item -->
+    <item
+        android:id="@+id/nav_save"
+        android:icon="@drawable/ic_star"
+        android:title="Ranking" />
+
+    <!-- Account Item -->
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account"
+        android:title="Account" />
+
+</menu>

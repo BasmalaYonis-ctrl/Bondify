@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.NewBondify"
+        tools:targetApi="31">
+        <activity
+            android:name=".GameScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SinglePlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MultiPlayersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Account"
+            android:exported="false" />
+        <activity
+            android:name=".Ranking"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Winner"
+            android:exported="false" />
+        <activity
+            android:name=".SecondMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AiDifficultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplachScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplachScreenActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.auth.api.credentials.CREDENTIALS_API"
+            android:value="true" />
+    </application>
+
+</manifest>

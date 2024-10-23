@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "58767976212",
+    "firebase_url": "https://newbondify-default-rtdb.firebaseio.com",
+    "project_id": "newbondify",
+    "storage_bucket": "newbondify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58767976212:android:e2da131b481a57649d8401",
+        "android_client_info": {
+          "package_name": "com.example.newbondify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58767976212-5tqgrmfje19ugt8p9lpcbidvqn4g4dq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newbondify",
+            "certificate_hash": "07cc485ea18d27fef330a4c33f5269cc4ca5c508"
+          }
+        },
+        {
+          "client_id": "58767976212-540egtolfmngile0prrhu6deh434bcs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaDqWNiDtFGlSUs0fA1dmqezrpNfLvSpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58767976212-540egtolfmngile0prrhu6deh434bcs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
