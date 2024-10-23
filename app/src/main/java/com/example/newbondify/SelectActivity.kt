@@ -12,7 +12,9 @@ import androidx.appcompat.app.AppCompatActivity
 
 class SelectActivity : AppCompatActivity() {
     // Declare variables for MediaPlayer, SeekBar, song title, and pause button
-    private var mediaPlayer: MediaPlayer? = null
+     companion object {
+        private var mediaPlayer: MediaPlayer?=null
+    }
     private lateinit var songTitleTextView: TextView
     private lateinit var volumeSeekBar: SeekBar
     private lateinit var pauseResumeButton: Button
